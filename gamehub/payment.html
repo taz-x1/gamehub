@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamehub</title>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <form action="">
+        <div class="row">
+            <h3 class="title">Billing Address</h3>
+            <div class="input-box">
+                <span>Full Name :</span>
+                <input type="text" placeholder="Mohamd Nasser">
+            </div>
+            <div class="input-box">
+                <span>Email :</span>
+                <input type="email" placeholder="example@example.com">
+            </div>
+            <div class="input-box">
+                <span>Address :</span>
+                <input type="text" placeholder="Room - street - Locality">
+            </div>
+            <div class="input-box">
+                <span>City :</span>
+                <input type="text" placeholder="Najran">
+            </div>
+            <div class="flex">
+                <div class="input-box">
+                    <span>State :</span>
+                    <input type="text" placeholder="Najran">
+                </div>
+                <div class="input-box">
+                    <span>Zip Code :</span>
+                    <input type="number" placeholder="16643">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <h3 class="title">Payment</h3>
+            <div class="input-box">
+                <span>Card Accepted :</span>
+                <img src="pic/pay-removebg-preview.png" alt="">
+            </div>
+            <div class="input-box">
+                <span>Name On Card :</span>
+                <input type="text" placeholder="Mr. Mohmad">
+            </div>
+            <div class="input-box">
+                <span>Credit Card Number :</span>
+                <input type="number" placeholder="1111 2222 3333 4444">
+            </div>
+            <div class="input-box">
+                <span>Exp. Month :</span>
+                <input type="text" placeholder="Aug">
+            </div>
+            <div class="flex">
+                <div class="input-box">
+                    <span>Exp. Year :</span>
+                    <input type="number" placeholder="2029">
+                </div>
+                <div class="input-box">
+                    <span>CVV :</span>
+                    <input type="number" placeholder="123">
+                </div>
+            </div>
+        </div>
+
+        
+            <button type="submit" class="btn" onclick="openPopup(event)">Submit</button>
+    
+        
+    </form>
+</div>
+</body>
+</html>

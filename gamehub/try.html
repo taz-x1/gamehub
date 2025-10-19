@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-AU-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamehub</title>
+
+    <!--swiper-->
+    <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+   <!--box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+
+  
+    <header class="header">
+       <a href="#" class="logo">Gamehub</a> 
+    
+  
+    <nav class="navb">
+        <a href="#home"class="active" >Home</a>
+        <a href="#about">About</a>
+        <a href="index.html">News</a>
+        <a href="#class">Games</a>
+        <a href="#contact">Store</a>
+        
+    </nav>
+    <a href="login.html" class="btns">Login</a>
+
+</header>
+
+
+<!--Products -->
+<!-- fashion section start --> 
+<section>
+<div class="fashion_section">
+    <div id="main_slider" class="carousel slide" data-ride="carousel">  
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <h1 class="fashion_taital">Featured Products</h1> 
+                    <div class="fashion_section_2">
+                        <div class="row"> 
+                            <div class="col-lg-4 col-sm-4">
+                                <div class="box_main"> 
+                                    <h4 class="shirt_text">Iphone 14 Pro Max</h4> 
+                                    <p class="price_text">Price <span style="color: #fff;">$1.500</span></p> 
+                                                                        <div class="tshirt_img">
+                                                                            <img src="immagini/iphone14promax1-removebg-preview.png"></div>
+                                                                            <div class="btn_main">  
+                                                                                <div class="buy_bt"><a href="iphone14promax.html">Buy Now</a></div>
+                                                                                <div class="seemore_bt"><a href="#">See More</a></div> 
+    </div>  
+</div>
+</div>
+
+<div class="col-lg-4 col-sm-4">
+    <div class="box_main"> 
+        <h4 class="shirt_text">Iphone 14 Pro Max</h4> 
+        <p class="price_text">Price <span style="color: #fff;">$1.500</span></p> 
+                                            <div class="tshirt_img">
+                                                <img src="immagini/iphone14promax1-removebg-preview.png"></div>
+                                                <div class="btn_main">  
+                                                    <div class="buy_bt"><a href="iphone14promax.html">Buy Now</a></div>
+                                                    <div class="seemore_bt"><a href="#">See More</a></div> 
+</div>  
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<!-- Jquery --> 
+<scriptsrc="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+ <scriptsrc="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js" integrity="sha512- Nx/M3T/fWprNarYOrnl+gfWZ25YlZtSNmhjHeCQ+2gCtyAdDFXqaORJBj1dC427zt3z/HwkUpPX+cxzonjUgrA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <script>
+ $( document ).ready(function() {
+
+ /* Open Pannel */
+$(".hamburger").on('click', function() {
+$(".menu").toggleclass("menu--open");
+ });
+});
+
+ScrollReveal().reveal('.reveal',{distance: '200px', duration:2500, easing: 'cubic-bezier(.215,61,355,1)', interval: 600 });
+
+ScrollReveal().reveal('.zoom',{duration: 1500, easing:'cubic-bezier(.215,.61, .355, 1)',interval: 200, scale: 0.65, mobile: false});
+
+</script>
+ </script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
